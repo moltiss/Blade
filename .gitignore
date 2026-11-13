@@ -1,0 +1,65 @@
+# Python and local environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Builds, binary artifacts and release payloads
+build/
+dist/
+release/
+*.exe
+*.spec
+*.zip
+*.rar
+
+# Application data and logs
+storage/
+server/logs/
+logs/
+*.log
+*.log.*
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.jsonl
+*.ready
+.blade-update.lock
+backup/
+staging/
+.failed-*/
+
+# Secrets (public verification keys such as update_public.pem are allowed)
+*private*.pem
+*private*.key
+*secret*.key
+jwt_secret.key
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.p8
+*.ppk
+id_ed25519
+id_rsa
+
+# Local config may contain machine-specific settings; publish redacted examples instead
+client/config.ini
+server/config.ini
+
+# Editor / OS files
+.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Backup and local diagnostic scripts
+server/*_backup.py
+server/check_db.py
+server/check_messages.py

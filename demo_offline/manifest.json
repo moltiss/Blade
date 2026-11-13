@@ -1,0 +1,18 @@
+{
+  "version": "1.0.1",
+  "min_supported": "1.0.0",
+  "release_date": "2026-10-24T06:00:00Z",
+  "os": "windows",
+  "arch": "x64",
+  "package_url": "/updates/download/1.0.1",
+  "package_filename": "Blade-1.0.1-windows-x64.zip",
+  "package_size": 343,
+  "package_sha256": "6b47ffac02a56ebfdcf691fc5c0c9b475a945afe50918e7c6a912142725bcaea",
+  "sbom": {
+    "format": "CycloneDX-1.5",
+    "url": "/updates/sbom/1.0.1.json",
+    "sha256": "0bed391de1ab8aee0be718274efde76acad5005d9e402d96d8c6d3e6cbc56056"
+  },
+  "critical": false,
+  "signature": "sxWLyaHpY//Lif/11v59ytW5p0ryzVZIaOf5/wUXC4xVK4HEexW9oJn62J9LudMASG2W16Fe6nR4/hi74bK5Dw=="
+}

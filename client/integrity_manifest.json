@@ -1,0 +1,15 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "auth.py": "f111cb1ed28ba6a913dabcc3a333d3faa1b954cf27a0845d8352721bad7c2b1e",
+    "config.ini": "6bc69d6dace2e0d676089ce74def19cf852c79c32e5cfdf0131a7d7f2cd85a23",
+    "encryption.py": "d2847116a7c90e75c5ba9fa413f878aeb4f8f51d072dc6bfb1b2185657e5a5b2",
+    "install_core.py": "2c0d029181f79fa2d99cf6f346ba03ae43774f164984a3487cb60e666eafff4f",
+    "integrity.py": "7cc2c60d8538cd1c8ce21e3336d43c5c56b02119bcac4a915d94bac50ddabf84",
+    "main.py": "1e720c4ce042822d463c13ce130ecaff52836f0e67e3113337656ebb57d7b3f9",
+    "settings.py": "1bd158206e67a752ac7a53516eb47429a6d2f130c6cf7ec6f11bf2d3fd816b37",
+    "update_public.pem": "4b3c041008d35ca9139532de6d6e92be01c280a6d7ec7bd58b99f4f3c47dce31",
+    "update_ui.py": "6f1d72db188e6f01f1c61deb055171e43c206a8416ecd2d41189072da126173f",
+    "updater.py": "2bf207cc140d8e07dade647a6e0eb95829d565b69a8285cf381ee188e7bab4ff"
+  }
+}
