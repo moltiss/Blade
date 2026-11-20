@@ -236,7 +236,7 @@ def validate_zip_package(package):
             if bad is not None:
                 raise UpdateError(f"CRC-ошибка файла в ZIP: {bad}")
             return len(infos)
-    except (OSError, zipfile.BadZipFile, EOFError, RuntimeError) as exc:
+    except (OSError, zipfile.BadZipFile, EOFError, RuntimeError, UnicodeDecodeError) as exc:
         raise UpdateError("Неверный или повреждённый ZIP-пакет") from exc
 
 

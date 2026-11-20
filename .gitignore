@@ -63,3 +63,13 @@ Thumbs.db
 server/*_backup.py
 server/check_db.py
 server/check_messages.py
+
+# Testing and fuzzing artifacts
+.hypothesis/
+.coverage
+.coverage.*
+coverage/
+htmlcov/
+coverage.xml
+fuzz/crashes/
+crash-*
